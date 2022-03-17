@@ -17,8 +17,27 @@ module.exports = {
       options: {
         url: process.env.WPGRAPHQL_URL ||'https://sad-faraday.159-223-103-242.plesk.page/graphql',
       },
+
+
+      
     },
+    
     "gatsby-plugin-sharp",
+    {
+      resolve: '@chakra-ui/gatsby-plugin',
+      options: {
+        /**
+         * @property {boolean} [resetCSS=true]
+         * if false, this plugin will not use `<CSSReset />
+         */
+        resetCSS: true,
+        /**
+         * @property {boolean} [isUsingColorMode=true]
+         * if false, this plugin will not use <ColorModeProvider />
+         */
+        isUsingColorMode: true,
+        },
+    },
     "gatsby-plugin-image",
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",

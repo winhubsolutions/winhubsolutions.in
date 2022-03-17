@@ -1,0 +1,42 @@
+ #pagetitle.page-title {
+    background-image: url(https://www.winhubsolutions.in/wp-content/uploads/2019/12/bg-slider-01.jpg);
+}
+ #pagetitle.page-title {
+    padding-top: 215px;
+}
+
+#pagetitle:before {
+    z-index: -1;
+    content: '';
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#pagetitle {
+    background-color: #333;
+    padding-top: 167px;
+    padding-bottom: 116px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pagetitle.page-title {
+    padding-top: 215px;
+}
+
+div#pagetitle {
+    background-image: url(https://www.winhubsolutions.in/wp-content/uploads/2019/12/bg-slider-01.jpg);
+}
+
+#pagetitle {
+    background-image: url(https://www.winhubsolutions.in/wp-content/uploads/2019/12/bg-slider-01.jpg);
+}

@@ -1,6 +1,6 @@
 import * as React from "react"
-import Header from "./header"
-import Footer from "./footer"
+import { Nav } from "./Navbar/App"
+import { Footer } from "./Footer/App"
 import Head from "./head"
 import "../styles.css.ts"
 
@@ -8,7 +8,7 @@ export default function Layout(props) {
   return (
     <>
       <Head {...props} />
-      <Header />
+ <Nav/>
       {props.children}
       <Footer />
     </>
