@@ -950,3 +950,158 @@ a, a:hover, a:focus, a:before, a:after {
     max-width: 33.333333%;
 }
 }
+
+.ct-list-icon {
+  color: #f53f00;
+}
+
+span.elementor-icon-list-icon {
+  color: #f53f00;
+}
+
+.ct-fancy-box-grid2 .item--title {
+  font-size: 20px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -khtml-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -moz-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -ms-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.heading-default-font h1, .heading-default-font h2, .heading-default-font h3, .heading-default-font h4, .heading-default-font h5, .heading-default-font h6, .heading-default-font .h1, .heading-default-font .h2, .heading-default-font .h3, .heading-default-font .h4, .heading-default-font .h5, .heading-default-font .h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.ct-fancy-box-grid2 .item--inner {
+  text-align: center;
+  border: 1px solid #ebeffc;
+  background-color: #f9fbfd;
+  padding: 55px 40px 48px;
+  margin-top: -1px;
+  margin-left: -1px;
+  -webkit-transition: all 300ms linear 0ms;
+  -khtml-transition: all 300ms linear 0ms;
+  -moz-transition: all 300ms linear 0ms;
+  -ms-transition: all 300ms linear 0ms;
+  -o-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+  position: relative;
+  z-index: 1;
+}
+
+.ct-heading {
+  position: relative;
+  z-index: 1;
+}
+
+.ct-heading .item--title {
+  margin-bottom: 0;
+}
+h4, .h4 {
+  font-size: 32px;
+}
+
+.elementor-5518 .elementor-element.elementor-element-5bd905c .ct-heading {
+  text-align: center;
+}
+
+.ct-heading .item--title.st-line-bottom1 .ct-heading-divider {
+  height: 3px;
+  margin-top: 6px;
+}
+
+.ct-heading .item--title.st-line-bottom1 .ct-heading-divider span {
+  width: 50px;
+  height: 2px;
+  background-color: #d1651a;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d1651a), to(#c1282a));
+  background-image: -webkit-linear-gradient(left, #d1651a, #c1282a);
+  background-image: -moz-linear-gradient(left, #d1651a, #c1282a);
+  background-image: -ms-linear-gradient(left, #d1651a, #c1282a);
+  background-image: -o-linear-gradient(left, #d1651a, #c1282a);
+  background-image: linear-gradient(left, #d1651a, #c1282a);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d1651a', endColorStr='#c1282a', gradientType='1');
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ct-contact-info1 {
+  list-style: none;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.ct-contact-info1.style2 .ct-contact-content {
+  font-size: 18px;
+  line-height: 30px;
+  color: #636363;
+}
+.ct-contact-info1 li {
+  display: flex;
+  flex-wrap: nowrap;
+}
+ul li {
+  list-style-position: inside;
+}
+
+
+.ct-contact-info1.style2 .ct-contact-icon i {
+  font-size: 25px;
+}
+.ct-contact-info1.style2 .ct-contact-icon {
+  min-width: 34px;
+  margin-top: 4px;
+}
+.ct-contact-info1 .ct-contact-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+.ct-contact-info1.style2 .ct-contact-content {
+  font-size: 18px;
+  line-height: 30px;
+  color: #636363;
+}
+
+.ct-contact-info1 {
+  list-style: none;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.elementor-5514 .elementor-element.elementor-element-66112fa .ct-heading .item--title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.ct-heading h3.item--title {
+  font-size: 36px;
+  line-height: 1.33333;
+}
+.ct-contact-info1 li + li {
+  margin-top: 10px;
+}
+
+.ct-fancy-box-grid2 .item--shadow {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 75%;
+  width: 83%;
+  z-index: -1;
+  -webkit-transition: all 300ms linear 0ms;
+  -khtml-transition: all 300ms linear 0ms;
+  -moz-transition: all 300ms linear 0ms;
+  -ms-transition: all 300ms linear 0ms;
+  -o-transition: all 300ms linear 0ms;
+  transition: all 300ms linear 0ms;
+  -webkit-box-shadow: 0 10px 40px rgb(5 12 103 / 28%);
+  -khtml-box-shadow: 0 10px 40px rgba(5, 12, 103, 0.28);
+  -moz-box-shadow: 0 10px 40px rgba(5, 12, 103, 0.28);
+  -ms-box-shadow: 0 10px 40px rgba(5, 12, 103, 0.28);
+  -o-box-shadow: 0 10px 40px rgba(5, 12, 103, 0.28);
+  box-shadow: 0 10px 40px rgb(5 12 103 / 28%);
+  opacity: 0;
+}
