@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import { Container, Heading } from "../components/ui"
+import { Container } from "../components/ui"
 
 export default function Page(props) {
   const { page } = props.data
@@ -9,8 +9,34 @@ export default function Page(props) {
   return (
     <Layout {...page}>
     
-        <Container width="narrow">
-          <Heading as="h1">{page.title}</Heading>
+     <div id="pagetitle" className="page-title bg-image ">
+    
+    <div className="page-title-inner">
+      <div className="page-title-holder">
+        <h1 className="page-title">{page.title}</h1>{" "}
+      </div>
+      <ul className="ct-breadcrumb">
+        <li>
+          <a
+            className="breadcrumb-entry"
+            href="https://sad-faraday.159-223-103-242.plesk.page/"
+          >
+            Homepage
+          </a>
+        </li>
+        <li>
+          <span className="breadcrumb-entry">
+          {page.title}
+          </span>
+        </li>
+      </ul>{" "}
+     
+  </div>
+</div>
+        <Container>
+       
+
+       
           <div
             dangerouslySetInnerHTML={{
               __html: page.html,

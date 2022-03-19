@@ -16,9 +16,9 @@ export default function HTML(props) {
         {props.headComponents}
         <link rel="apple-touch-icon" href="" alt={"Cadvision"}/>
 
+        <link href=" https://sad-faraday.159-223-103-242.plesk.page/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" rel="stylesheet" />
 
-
-
+       
 
 
 

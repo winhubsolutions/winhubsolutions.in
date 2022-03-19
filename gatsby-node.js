@@ -38,7 +38,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       localFile: File
       url: String
     }
-
     interface HomepageBlock implements Node {
       id: ID!
       blocktype: String
@@ -52,7 +51,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       href: String
       text: String
     }
-
     type HomepageHero implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -63,7 +61,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       text: String
       links: [HomepageLink] @link
     }
-
     type HomepageCta implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -73,7 +70,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       links: [HomepageLink] @link
       image: HomepageImage @link
     }
-
     type HomepageFeature implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -83,27 +79,23 @@ exports.createSchemaCustomization = async ({ actions }) => {
       image: HomepageImage @link
       links: [HomepageLink] @link
     }
-
     type HomepageTestimonial implements Node {
       id: ID!
       quote: String
       source: String
       avatar: HomepageImage @link
     }
-
     type HomepageBenefit implements Node {
       id: ID!
       heading: String
       text: String
       image: HomepageImage @link
     }
-
     type HomepageLogo implements Node {
       id: ID!
       image: HomepageImage @link
       alt: String @proxy(from: "image.title")
     }
-
     type HomepageProduct implements Node {
       id: ID!
       heading: String
@@ -111,7 +103,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       image: HomepageImage @link
       links: [HomepageLink] @link
     }
-
     type HomepageFeatureList implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -120,14 +111,12 @@ exports.createSchemaCustomization = async ({ actions }) => {
       text: String
       content: [HomepageFeature] @link
     }
-
     type HomepageLogoList implements Node & HomepageBlock {
       id: ID!
       blocktype: String
       text: String
       logos: [HomepageImage] @link
     }
-
     type HomepageTestimonialList implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -135,7 +124,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       heading: String
       content: [HomepageTestimonial] @link
     }
-
     type HomepageBenefitList implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -143,14 +131,12 @@ exports.createSchemaCustomization = async ({ actions }) => {
       text: String
       content: [HomepageBenefit] @link
     }
-
     type HomepageStat implements Node {
       id: ID!
       value: String
       label: String
       heading: String
     }
-
     type HomepageStatList implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -162,7 +148,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       content: [HomepageStat] @link
       links: [HomepageLink] @link
     }
-
     type HomepageProductList implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -171,7 +156,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       text: String
       content: [HomepageProduct] @link
     }
-
     type AboutHero implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -179,27 +163,23 @@ exports.createSchemaCustomization = async ({ actions }) => {
       text: String
       image: HomepageImage @link
     }
-
     type AboutStat implements Node & HomepageBlock {
       id: ID!
       blocktype: String
       value: String
       label: String
     }
-
     type AboutStatList implements Node & HomepageBlock {
       id: ID!
       blocktype: String
       content: [AboutStat] @link
     }
-
     type AboutProfile implements Node {
       id: ID!
       image: HomepageImage @link
       name: String
       jobTitle: String
     }
-
     type AboutLeadership implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -208,7 +188,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       subhead: String
       content: [AboutProfile] @link
     }
-
     type AboutLogoList implements Node & HomepageBlock {
       id: ID!
       blocktype: String
@@ -227,7 +206,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       image: HomepageImage @link
       content: [HomepageBlock] @link
     }
-
     type AboutPage implements Node {
       id: ID!
       title: String
@@ -235,7 +213,6 @@ exports.createSchemaCustomization = async ({ actions }) => {
       image: HomepageImage @link
       content: [HomepageBlock] @link
     }
-
     type Page implements Node {
       id: ID!
       slug: String!

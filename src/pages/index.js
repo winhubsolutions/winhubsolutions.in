@@ -2,8 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import * as sections from "../components/sections"
-import {Whyus} from "../components/whyus/App"
-import { Feature3 } from "../components/Features/ThreeColumnGridBelow/App"
+
 const Fallback = (props) => {
   console.warn(`No component found for: ${props.blocktype}`)
   return false
@@ -18,8 +17,6 @@ export default function Homepage(props) {
         const Component = sections[block.blocktype] || Fallback
         return <Component key={block.id} index={i} {...block} />
       })}
-      <Feature3/>
-      <Whyus/>
     </Layout>
   )
 }
