@@ -7,4 +7,6 @@ import "./src/assets/css/style.css"
 import "./src/assets/css/wordpress.css"
 import "./src/assets/css/font-awesome.min.css"
 import "./src/assets/css/theme.css"
-
+import "./src/assets/css/material-design-iconic-font.min.css"
+import "./src/assets/css/flaticon-v3.css"
+import "./src/assets/css/flaticon.css"

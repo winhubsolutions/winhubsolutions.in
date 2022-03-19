@@ -5,7 +5,7 @@ import { MdWeb } from 'react-icons/md'
 export const links = [
   {
     label: 'About Us',
-    href: '/about-us',
+    href: '/about',
   },
   {
     label: 'Services',
@@ -78,7 +78,7 @@ export const links = [
     ],
   },
   {
-    label: 'Pricing',
-    href: '#',
+    label: 'Contact',
+    href: '/contact',
   },
 ]
