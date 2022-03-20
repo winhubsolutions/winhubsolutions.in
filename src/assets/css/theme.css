@@ -25,11 +25,8 @@
   padding-left: 76px;
   position: relative;
 }
-@media screen and (max-width: 991px) {
-  .ct-title1.style2 h3 {
-    font-size: 30px;
-  }
-}
+
+
 .ct-title1.style2 h3 i {
   width: 50px;
   height: 3px;
@@ -386,11 +383,8 @@ body.rtl .ct-title1.style1 h3 span {
   padding-left: 76px;
   position: relative;
 }
-@media screen and (max-width: 991px) {
-  .ct-title1.style2 h3 {
-    font-size: 30px;
-  }
-}
+
+
 .ct-title1.style2 h3 i {
   width: 50px;
   height: 3px;
@@ -1070,6 +1064,11 @@ ul li {
   font-size: 36px;
   line-height: 1.33333;
 }
+@media screen and (max-width: 991px){
+.ct-heading h3.item--title {
+    font-size: 26px;
+}
+}
 .ct-contact-info1 li + li {
   margin-top: 10px;
 }
@@ -1367,4 +1366,18 @@ ct-history1 .ct-history--even {
 .ct-history1 .ct-history--even .ct-history--item {
   padding-right: 0;
   padding-left: 124px;
+}
+
+@media screen and (max-width: 991px){
+
+  
+.ct-title1.style2 h3 {
+  font-size: 26px;
+  padding-left: 48px;
+  position: relative;
+}
+
+.ct-title1.style2 h3 i {
+  width: 38px;
+}
 }

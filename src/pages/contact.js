@@ -1,4 +1,6 @@
-import * as React from "react"
+import * as React from "react";
+import IframeComponent from "../components/IframeComponent/index"
+
 import Layout from "../components/layout"
 import {
   Container,
@@ -117,47 +119,8 @@ export default function contact() {
               <WrapItem>
                 <Box bg="white" borderRadius="lg">
                   <Box m={8} color="#0B0E3F">
-                    <VStack spacing={5}>
-                      <FormControl id="name">
-                        <FormLabel>Your Name</FormLabel>
-                        <InputGroup borderColor="#E0E1E7">
-                          <InputLeftElement
-                            pointerEvents="none"
-                            children={<BsPerson color="gray.800" />}
-                          />
-                          <Input type="text" size="md" />
-                        </InputGroup>
-                      </FormControl>
-                      <FormControl id="name">
-                        <FormLabel>Mail</FormLabel>
-                        <InputGroup borderColor="#E0E1E7">
-                          <InputLeftElement
-                            pointerEvents="none"
-                            children={<MdOutlineEmail color="gray.800" />}
-                          />
-                          <Input type="text" size="md" />
-                        </InputGroup>
-                      </FormControl>
-                      <FormControl id="name">
-                        <FormLabel>Message</FormLabel>
-                        <Textarea
-                          borderColor="gray.300"
-                          _hover={{
-                            borderRadius: 'gray.300',
-                          }}
-                          placeholder="message"
-                        />
-                      </FormControl>
-                      <FormControl id="name" float="right">
-                        <Button
-                          variant="solid"
-                          bg="#0D74FF"
-                          color="white"
-                          _hover={{}}>
-                          Send Message
-                        </Button>
-                      </FormControl>
-                    </VStack>
+                  <IframeComponent src="https://cadvision.xyz/requestdemo" width='100%' height='600'/>
+                    
                   </Box>
                 </Box>
               </WrapItem>
@@ -165,8 +128,18 @@ export default function contact() {
           </Box>
         </Box>
       </Flex>
+
+         
+      <div>
+       
+
+       
+</div>
     </Container>
+
       </Box>
+
+     
     </Layout>
   )
 }
