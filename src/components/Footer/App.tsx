@@ -33,11 +33,11 @@ export const Footer = () => (
         <SimpleGrid
           flex="1"
           w={{ base: 'full', lg: 'auto' }}
-          maxW={{ lg: '2xl' }}
-          columns={{ base: 1, md: 2, lg: 4 }}
+          maxW={{ lg: '3xl' }}
+          columns={{ base: 1, md: 2, lg: 3 }}
           spacing={{ base: '12', md: '10' }}
           fontSize="sm"
-          marginEnd={{ md: '4', lg: '16' }}
+          marginEnd={{ md: '3', lg: '16' }}
           fontWeight="bold"
         >
           {links.map((group, idx) => (

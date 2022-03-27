@@ -2,18 +2,26 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Container } from "../components/ui"
+import { GatsbyImage,getImage} from "gatsby-plugin-image"
+
+
+
 
 export default function Page(props) {
   const { page } = props.data
+  const image1 = getImage(page?.image?.gatsbyImageData)
 
+  
   return (
     <Layout {...page}>
-    
-     <div id="pagetitle" className="page-title bg-image ">
-    
-    <div className="page-title-inner">
+
+
+      
+     <div id="pagetitle" style={{backgroundImage:(image1)}}>
+     
+   <div className="page-title-inner">
       <div className="page-title-holder">
-        <h1 className="page-title">{page.title}</h1>{" "}
+        <h1 className="page-title">{page.title}</h1>
       </div>
       <ul className="ct-breadcrumb">
         <li>
@@ -29,10 +37,11 @@ export default function Page(props) {
           {page.title}
           </span>
         </li>
-      </ul>{" "}
+      </ul>
      
   </div>
 </div>
+
         <Container>
        
 
@@ -57,6 +66,14 @@ export const query = graphql`
       image {
         id
         gatsbyImageData
+        url
+        localFile {
+          childImageSharp {
+            fluid {
+              src
+            }
+          }
+        }
       }
       html
     }

@@ -15,50 +15,42 @@ export const links: LinkGroupData[] = [
   {
     title: 'Product',
     links: [
-      { label: 'How it works', href: '#' },
-      { label: 'Features', href: '#' },
+      { label: 'WINHUB POS – Billing Application', href: '/winhub-pos-billing-application' },
+      { label: 'Gym / Fitness Club Management', href: '/gym-fitness-club-management' },
       {
-        label: 'Integrations',
-        href: '#',
+        label: 'restaurant point of sale web application',
+        href: '/winhub-pos-restaurant-point-of-sale-web-application',
         badge: (
           <Badge colorScheme="blue" variant="solid" fontSize="0.625rem">
             New
           </Badge>
         ),
       },
-      { label: 'Pricing', href: '#' },
+      { label: 'School Management System', href: '/school-management-system' },
       { label: 'Examples', href: '#' },
     ],
   },
   {
     title: 'Resources',
     links: [
-      { label: 'Learn Center', href: '#' },
-      { label: 'Support', href: '#' },
-      { label: 'Slack Community', href: '#' },
-      { label: 'Events', href: '#' },
-      { label: 'Terms of Service', href: '#' },
-      { label: 'Privacy Policy', href: '#' },
+      { label: 'Node.js Development', href: '/node-js-development-company' },
+      { label: 'React JS Development', href: '/react-js-development-company' },
+      { label: 'Gatsby Development', href: '/gatsby-development-company-winhub-solutions' },
+      { label: 'WordPress Development Services', href: '/wordpress-development-services' },
+      { label: 'E-Commerce  Development ', href: '/e-commerce-website-development-company' },
+      { label: 'UX/UI Design and Development Services', href: '/ux-ui-design-and-development-services' },
     ],
   },
   {
     title: 'About',
     links: [
-      { label: 'Our Story', href: '#' },
-      { label: 'Media Kit', href: '#' },
-      { label: 'Blog', href: '#' },
-      { label: 'Email us', href: '#' },
+      { label: 'About us', href: '/about' },
+      { label: 'Contact Us', href: '/contact' },
+      { label: 'Terms And Conditions', href: '/terms-and-conditions' },
+      { label: 'Privacy Policy', href: '/privacy-policy' },
     ],
   },
-  {
-    title: 'Get Started',
-    links: [
-      { label: 'Start for free', href: '#' },
-      { label: 'Sign in', href: '#' },
-      { label: 'Download MacOS', href: '#' },
-      { label: 'Download Windows', href: '#' },
-    ],
-  },
+ 
 ]
 
 interface SocialLink {

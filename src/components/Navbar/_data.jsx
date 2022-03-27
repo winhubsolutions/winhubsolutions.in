@@ -70,9 +70,9 @@ export const links = [
         icon: <IoGrid />,
       },
       {
-        label: 'Blog',
-        description: 'Get updates, articles and insights from the team.',
-        href: '#',
+        label: 'School Management System',
+        description: 'School Management System',
+        href: '/school-management-system/',
         icon: <MdWeb />,
       },
     ],

@@ -119,7 +119,7 @@ export default function contact() {
               <WrapItem>
                 <Box bg="white" borderRadius="lg">
                   <Box m={8} color="#0B0E3F">
-                  <IframeComponent src="https://cadvision.xyz/requestdemo" width='100%' height='600'/>
+                  <IframeComponent src="https://sad-faraday.159-223-103-242.plesk.page/request-form" width='100%' height='600'/>
                     
                   </Box>
                 </Box>
