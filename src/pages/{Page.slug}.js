@@ -67,13 +67,8 @@ export const query = graphql`
         id
         gatsbyImageData
         url
-        localFile {
-          childImageSharp {
-            fluid {
-              src
-            }
-          }
-        }
+        
+        
       }
       html
     }
