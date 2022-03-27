@@ -2,7 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Container } from "../components/ui"
-import { GatsbyImage,getImage} from "gatsby-plugin-image"
+import { getImage} from "gatsby-plugin-image"
 
 
 
@@ -55,7 +55,6 @@ export default function Page(props) {
        </Layout>
   )
 }
-
 export const query = graphql`
   query PageContent($id: String!) {
     page(id: { eq: $id }) {
@@ -66,7 +65,6 @@ export const query = graphql`
       image {
         id
         gatsbyImageData
-        
       }
       html
     }
